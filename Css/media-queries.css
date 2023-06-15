@@ -1,0 +1,55 @@
+@media screen and (max-width:991px) {
+    .main-nav{
+        justify-content: space-evenly;
+    }
+
+    .cards-container{
+        justify-content:space-evenly;
+        row-gap:20px;
+     }
+}
+
+@media screen and (max-width:568px){
+    .news-input{
+        width:100px;
+        height:100%;
+     }
+     .nav-links ul{
+        gap:10px;
+    } 
+}
+
+@media screen and (max-width:468px){
+    .icon{
+        display:inline-block;
+    }
+    
+       ul{
+            position:absolute;
+            flex-direction:column;
+            top:100%;
+            background-color: rgb(11, 11, 39);
+            left:-100%;
+            width:100%; 
+            padding-bottom:80px;
+            transition:.3s ease;
+   }
+
+   .search-bar{
+        position: absolute;
+        top:250%;
+        left:-100%;
+        flex-direction:column;
+        transition:.3s ease;
+   }
+   .active{
+      left:0;
+      width:100%;
+   }
+
+   .main-nav{
+    justify-content: space-around;
+   }
+   
+   
+}
